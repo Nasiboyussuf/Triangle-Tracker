@@ -32,3 +32,4 @@ https://Nasiboyussuf.github.io/triangle-tracker/
 ### License:
 
 Copyright © 2019; Nasiboyussuf.Inc.
+[MIT LICENSE](https://en.wikipedia.org/wiki/MIT_License)
