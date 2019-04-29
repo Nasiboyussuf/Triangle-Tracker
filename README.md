@@ -29,6 +29,7 @@ It's a real cool application as it helps one to relax their mind
 ### Link to the app:
 https://Nasiboyussuf.github.io/triangle-tracker/
 
+
 ### License:
 
 Copyright © 2019; Nasiboyussuf.Inc.
