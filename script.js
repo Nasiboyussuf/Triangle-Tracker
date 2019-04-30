@@ -7,4 +7,11 @@ function getTriangle(){
         if( a==b && b==c && a==c){
             alert("Equilateral triangle");
         }
+        if(a!==b && b!==c && c!==a){
+            alert("Scalene triangle")
+        }
+        if(a===b || a===c || b===c){
+            alert("Isosceles triangle");
+        }
     }
+    
