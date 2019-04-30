@@ -5,7 +5,7 @@ Nasibo Yussuf
 ### Description:
 Triangle tracker is an application  that will help us know whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all.
 
-It's a real cool application as it helps one to relax their mind
+It's a really cool application as it helps one to relax their mind
 
 ### Languages used:
 * HTML
