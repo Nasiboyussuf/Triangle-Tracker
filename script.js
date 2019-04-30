@@ -4,14 +4,25 @@ function getTriangle(){
     var c = parseFloat(prompt("side c"));
 
     //  var determine = function(a,b,c){
-        if( a==b && b==c && a==c){
+ if(a+b<=c||a+c<=b||b+c<=a){
+            alert("Not a triangle");
+ }
+
+   else if( a==b && b==c && a==c){
             alert("Equilateral triangle");
         }
-        if(a!==b && b!==c && c!==a){
-            alert("Scalene triangle")
-        }
-        if(a===b || a===c || b===c){
+     
+        else if(a===b || a===c || b===c){
             alert("Isosceles triangle");
         }
-    }
+        else if(a+b<=c||a+c<=b||b+c<=a){
+            alert("Not a triangle");
+
+        }
+        else {
+            alert ("Triangle is Scalene");
+        }
+
+        }
+
     
