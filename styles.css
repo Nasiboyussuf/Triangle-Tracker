@@ -1,9 +1,9 @@
 body{
     font-size:30px;
     text-align:center;
-    background-color:blue;
-    color:white;
-    opacity: 1;
+    background-color:#c3ccdb;
+    
+    /* opacity: 1; */
 }
 button{
     background-color: black;
