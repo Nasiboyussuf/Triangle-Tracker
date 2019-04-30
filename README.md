@@ -27,8 +27,8 @@ It's a really cool application as it helps one to relax their mind
 * Internet connection
 
 ### Link to the app:
-https://Nasiboyussuf.github.io/triangle-tracker/
 
+[Click me to go to the live site](https://nasiboyussuf.github.io/Triangle-Tracker/)
 
 ### License:
 
