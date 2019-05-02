@@ -1,42 +1,44 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-     <meta charset="utf-8">
-     <title>Triangle-tracker</title>
-     <link rel="stylesheet" type=text/css href="styles.css">
-  </head>
-  <body>
-    <div>
-      <h1>Triangle-tracker</h1>
-    
-      <h3>What is a triangle?</h3>
-      <p> A triangle is a polygon with three edges and three vertices.</p>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSaoSmRXddo2qq9B0dzuHLmDJmMVsGvVpV5bNn6kibgslSpxrp">
-      <h4>Types Of Trangles</h4><p>Equilateral<br>Isosceles<br>Scalene</p>
-      <h5>Equilateral </h5>
-      <p>All sides are equal</p>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2uFkCwn0C9kSRJklPoaQVhdJwJc3V3sKy6zEgHd2cmFHb2Gay" width="550">
-      
-      <h5>Isosceles</h5>
-      <p>Two sides  are equal</p>
-      <img src="http://www.amathsdictionaryforkids.com/qr/iimages/isoscelesTriangle.gif" >
 
-      <h5>Scalene</h5>
-      <p> It has three unequal sides</p>
-      <img src="http://www.amathsdictionaryforkids.com/qr/simages/scaleneTriangle.gif">
-      <script src="script.js"></script>
-    </div>
-    <div class="low">
-      <button type="button" onclick="getTriangle()">
-          Try it yourself!
-      </button>
+<head>
+  <meta charset="utf-8">
+  <title>Triangle-tracker</title>
+  <link rel="stylesheet" type=text/css href="styles.css">
+</head>
 
-    </div>
+<body>
+  <div>
+    <h1>Triangle-tracker</h1>
+    <p>This is basically an application that helps one to know the type of triangles.</p>
+    <h4>Types Of Trangles</h4>
+    <p class="intro">Enter the dimensions and i'll tell you the type of the triangle you are. </p>
+    <input type="number" placeholder="Enter length one" id="length1" required>
+    <input type="number" placeholder="Enter length two" id="length2" required>
+    <input type="number" placeholder="Enter length three" id="length3" required>
+    <input type="submit" onclick="getTriangle()">
+    <section>
+      <div>
+        <h5>Equilateral </h5>
+        <p>All sides are equal</p>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2uFkCwn0C9kSRJklPoaQVhdJwJc3V3sKy6zEgHd2cmFHb2Gay"
+          width="100%">
+      </div>
+      <div>
+        <h5>Isosceles</h5>
+        <p>Two sides are equal</p>
+        <img src="http://www.amathsdictionaryforkids.com/qr/iimages/isoscelesTriangle.gif" width="100%">
+      </div>
+      <div>
+        <h5>Scalene</h5>
+        <p> It has three unequal sides</p>
+        <img src="http://www.amathsdictionaryforkids.com/qr/simages/scaleneTriangle.gif" width="100%">
+      </div>
+    </section>
 
-    
+    <script src="script.js"></script>
+  </div>
+</body>
 
-      
-
-    
-  </body>
 </html>
